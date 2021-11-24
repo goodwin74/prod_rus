@@ -6,7 +6,7 @@
 https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js
 
 Просто подключите JS к своему проекту в нужный момент или при запуске.
-### Загразка при запуске
+### Загрузка при запуске
 ```html
 <script src="https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
