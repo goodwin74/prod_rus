@@ -7,13 +7,13 @@ https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js
 
 Просто подключите JS к своему проекту в нужный момент или при запуске.
 ### Ванильный JS
-```
+```js
 var prodjs = document.createElement('script');
 prodjs.setAttribute('src','https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js');
 document.head.appendChild(prodjs);
 ```
 ### JQuery
-```
+```js
 $.getScript("https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js", function(){
     console.log("Скрипт загружен");
 });
