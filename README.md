@@ -3,22 +3,22 @@
 
 Вы можете загрузить прямо в базу SQL файл, подгружать JSON или использовать JS версию.
 ## CDN для JS версии
-https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js
+https://cdn.jsdelivr.net/gh/goodwin74/prod_rus@latest/products.min.js
 
 Просто подключите JS к своему проекту в нужный момент или при запуске.
 ### Загрузка при запуске
 ```html
-<script src="https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/gh/goodwin74/prod_rus@latest/products.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 ### Ванильный JS
 ```js
 var prodjs = document.createElement('script');
-prodjs.setAttribute('src','https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js');
+prodjs.setAttribute('src','https://cdn.jsdelivr.net/gh/goodwin74/prod_rus@latest/products.min.js');
 document.head.appendChild(prodjs);
 ```
 ### JQuery
 ```js
-$.getScript("https://cdn.jsdelivr.net/gh/goodwin74/prod_rus/products.min.js", function(){
+$.getScript("https://cdn.jsdelivr.net/gh/goodwin74/prod_rus@latest/products.min.js", function(){
     console.log("Скрипт загружен");
 });
 ```
